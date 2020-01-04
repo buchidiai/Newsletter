@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
-const { key } = require("./keys/prodkey");
+const { key } = require("./keys/key");
 
 const app = express();
 
